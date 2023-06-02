@@ -1,0 +1,714 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+
+
+.servicos {
+    background: whitesmoke;
+    max-width: 185vh;   
+}
+.cards {
+    background: white;
+    border-radius: 8px;
+    height: 40vh;
+    width: 75vh;
+    column-count: 2;
+    display: inline-block;
+    margin: 2vh 0vh 1.5vh 10vh;
+    position: relative;
+    padding: 1em 0em 1em 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__cafe {
+    background: white;
+    border-radius: 8px;
+    height: 40vh;
+    width: 164.5vh;
+    margin: 1em 0em 1em 4.2em;
+    justify-content: center;
+    column-count: 2;
+    padding: 1em 0em 1em 1em;
+    display: inline-block;    
+}
+
+.foto__saladas {
+    width: 15em;
+    height: 17.2em;
+    border-radius: 6px;
+    display: flex;
+    object-fit: cover;
+}
+.titulo__saladas {
+    font-family: 'Open Sans';
+    text-align-last: left;
+    justify-content: center;
+    width: 17vh;
+    color: #303336;
+}
+.texto__saladas {
+    font-family: 'Open Sans';
+    text-align-last: left;
+    font-size: 12px;
+    width: 30vh;
+    color: #7B8591;
+}
+.btn__saladas {
+    background: #FF5A01;
+    font-family: 'Open Sans';
+    border-radius: 150px;
+    display: flex;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    width: 8em;
+    justify-content: center;
+    height: 1.5em;
+    margin-left: 10em;
+    padding: 0.5em;
+}
+
+.foto__almoco {
+    width: 15em;
+    height: 17.2em;
+    border-radius: 5px;
+    display: flex;
+    object-fit: cover;
+}
+.titulo__almoco {
+    font-family: 'Open Sans';
+    text-align-last: left;
+    width: 28vh;
+    color: #303336;
+    
+}
+.texto__almoco {
+    font-family: 'Open Sans';
+    text-align-last: left;
+    font-size: 12px;
+    width: 30vh;
+    color: #7B8591;
+   
+}
+.btn__almoco {
+    background: #035810;
+    font-family: 'Open Sans';
+    border-radius: 150px;
+    display: flex;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    width: 8em;
+    height: 1.5em;
+    justify-content: center;
+    margin-left: 10em;
+    margin-top: 10em;
+    padding: 0.5em;
+}
+
+.foto__menu {
+    width: 15em;
+    height: 17.2em;
+    border-radius: 5px;
+    display: flex;
+    object-fit: cover;
+}
+.titulo__menu {
+    font-family: 'Open Sans';
+    text-align-last: left;
+    font-size: 25px;
+    width: 18vh;
+    padding-bottom: 0.5em;
+    color: #303336;
+}
+.texto__menu {
+    font-family: 'Open Sans';
+    text-align-last: left;
+    font-size: 12px;
+    width: 25vh;
+    color: #7B8591;
+}
+.btn__menu {
+    background: #FF5A01;
+    font-family: 'Open Sans';
+    border-radius: 150px;
+    display: flex;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    width: 8em;
+    justify-content: center;
+    height: 1.5em;
+    margin-left: 10em;
+    margin-top: 2em;
+    padding: 0.5em;
+}
+
+.foto__delivery {
+    width: 15em;
+    height: 17.2em;
+    border-radius: 5px;
+    display: flex;
+    object-fit: cover;
+}
+.titulo__delivery {
+    font-family: 'Open Sans';
+    text-align-last: left;
+    width: 28vh;
+    color: #303336;
+}
+.texto__delivery {
+    font-family: 'Open Sans';
+    text-align-last: left;
+    font-size: 12px;
+    width: 30vh;
+    color: #7B8591;
+    margin-top: 7em;
+}
+.btn__delivery {
+    background: #035810;
+    font-family: 'Open Sans';
+    border-radius: 150px;
+    display: flex;
+    font-size: 12px;
+    color: white;
+    width: 8em;
+    justify-content: center;
+    height: 1.5em;
+    margin-left: 10em;
+    font-weight: 400;
+    padding: 0.5em;
+}
+
+.foto__cafe {
+    width: 30em;
+    height: 17.2em;
+    border-radius: 5px;
+    display: flex;
+    object-fit: cover;
+}
+.titulo__cafe {
+    font-family: 'Open Sans';
+    text-align-last: left;
+    color: #303336;
+}
+.texto__cafe {
+    font-family: 'Open Sans';
+    text-align-last: left;
+    font-size: 15px;
+    width: 50vh;
+    color: #7B8591;
+}
+.btn__cafe {
+    background: #FF5A01;
+    font-family: 'Open Sans';
+    border-radius: 150px;
+    display: flex;
+    font-size: 10px;
+    color: white;
+    width: 12em;
+    justify-content: center;
+    height: 1.5em;
+    margin-left: 30em;
+    margin-top: 2em;
+    font-weight: 400;
+    padding: 0.5em;
+}
+.btn__evento {
+    text-decoration: none;
+    background: #035810;
+    font-family: 'Open Sans';
+    border-radius: 20px;
+    font-size: 10px;
+    color: white;
+    justify-content: center;
+    width: 30vh;
+    height: 4vh;
+    display: flex;
+    padding-top: 1.2em;
+    margin-top: 4em;
+    cursor: pointer;
+}
+@media screen and (max-width: 430px) {
+    .cards {
+        background: white;
+        border-radius: 8px;
+        height: 15vh;
+        width: 40vh;
+        column-count: 2;
+        column-gap: 1em;
+        display: block;
+        margin: 2vh 0vh 1.5vh 2vh;
+        position: relative;
+        padding: 1em 0em 1em 1em;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .card__cafe {
+        background: white;
+        border-radius: 8px;
+        height: 20vh;
+        width: 40vh;
+        margin: 1em 0em 1em 1em;
+        justify-content: center;
+        column-count: 2;
+        padding: 1em 0em 1em 1em;
+        display: inline-block; 
+         
+    }
+    .foto__saladas {
+        width: 7em;
+        height: 8em;
+        border-radius: 6px;
+        display: flex;
+        object-fit: cover;
+    }
+    .titulo__saladas {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        justify-content: center;
+        width: 5em;
+        color: #303336;
+        font-size: 15px;
+        top: 10px;
+        margin-right: 10em;
+    }
+    .texto__saladas {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        font-size: 6px;
+        width: 10vh;
+        color: #7B8591;
+    }
+    .btn__saladas {
+        background: #FF5A01;
+        font-family: 'Open Sans';
+        border-radius: 150px;
+        display: flex;
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+        width: 8em;
+        justify-content: center;
+        height: 1.5em;
+        margin-left: 5em;
+        padding: 0.5em;
+    }
+    
+    .foto__almoco {
+        width: 7em;
+        height: 8em;
+        border-radius: 6px;
+        display: flex;
+        object-fit: cover;
+    }
+    .titulo__almoco {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        justify-content: center;
+        width: 10em;
+        color: #303336;
+        font-size: 14px;
+        top: 10px;
+        margin-right: 10em;
+        
+    }
+    .texto__almoco {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        font-size: 6px;
+        width: 10vh;
+        color: #7B8591;
+       
+    }
+    .btn__almoco {
+        background: #035810;
+        font-family: 'Open Sans';
+        border-radius: 150px;
+        display: flex;
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+        width: 8em;
+        height: 1.5em;
+        justify-content: center;
+        margin-left: 5em;
+        margin-top: 10em;
+        padding: 0.5em;
+    }
+    
+    .foto__menu {
+        width: 7em;
+        height: 8em;
+        border-radius: 5px;
+        display: flex;
+        object-fit: cover;
+    }
+    .titulo__menu {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        justify-content: center;
+        width: 10em;
+        color: #303336;
+        font-size: 14px;
+        top: 10px;
+        margin-right: 10em;
+    }
+    .texto__menu {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        font-size: 6px;
+        width: 10vh;
+        color: #7B8591;
+    }
+    .btn__menu {
+        background: #FF5A01;
+        font-family: 'Open Sans';
+        border-radius: 150px;
+        display: flex;
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+        width: 8em;
+        justify-content: center;
+        height: 1.5em;
+        margin-left: 5em;
+        margin-top: 2em;
+        padding: 0.5em;
+    }
+    
+    .foto__delivery {
+        width: 7em;
+        height: 8em;
+        border-radius: 5px;
+        display: flex;
+        object-fit: cover;
+    }
+    .titulo__delivery {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        justify-content: center;
+        width: 10em;
+        color: #303336;
+        font-size: 14px;
+        margin-right: 10em;
+        margin-top: 15px;
+    }
+    .texto__delivery {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        font-size: 6px;
+        width: 10vh;
+        color: #7B8591;
+    }
+    .btn__delivery {
+        background: #035810;
+        font-family: 'Open Sans';
+        border-radius: 150px;
+        display: flex;
+        font-size: 12px;
+        color: white;
+        width: 8em;
+        justify-content: center;
+        height: 1.5em;
+        margin-left: 5em;
+        font-weight: 400;
+        padding: 0.5em;
+    }
+    
+    .foto__cafe {
+        width: 10em;
+        height: 10em;
+        border-radius: 5px;
+        display: flex;
+        object-fit: cover;
+    }
+    .titulo__cafe {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        justify-content: center;
+        width: 10em;
+        color: #303336;
+        font-size: 14px;
+        margin-right: 10em;
+        margin-top: 15px;
+    }
+    .texto__cafe {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        font-size: 6px;
+        width: 10vh;
+        color: #7B8591;
+    }
+    .btn__cafe {
+        background: #FF5A01;
+        font-family: 'Open Sans';
+        border-radius: 150px;
+        display: flex;
+        font-size: 10px;
+        color: white;
+        width: 12em;
+        justify-content: center;
+        height: 1.5em;
+        margin-left: 3em;
+        margin-top: 2em;
+        font-weight: 400;
+        padding: 0.5em;
+    }
+    .btn__evento {
+        text-decoration: none;
+        background: #035810;
+        font-family: 'Open Sans';
+        display: flex;
+        font-size: 10px;
+        color: white;
+        width: 12em;
+        justify-content: center;
+        height: 1.5em;
+        margin-left: 3em;
+        margin-top: 2em;
+        font-weight: 400;
+        padding: 0.5em;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .cards {
+        background: white;
+        border-radius: 8px;
+        height: 20vh;
+        width: 55vh;
+        column-count: 2;
+        column-gap: 1em;
+        display: block;
+        margin: 2vh 0vh 1.5vh 2vh;
+        position: relative;
+        padding: 1em 0em 1em 1em;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .card__cafe {
+        background: white;
+        border-radius: 8px;
+        height: 25vh;
+        width: 60vh;
+        margin: 1em 0em 1em 1em;
+        justify-content: center;
+        column-count: 2;
+        padding: 1em 0em 1em 1em;
+        display: inline-block; 
+           
+    }
+    .foto__saladas {
+        width: 10em;
+        height: 10em;
+        border-radius: 6px;
+        display: flex;
+        object-fit: cover;
+    }
+    .titulo__saladas {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        justify-content: center;
+        width: 12em;
+        color: #303336;
+        font-size: 17px;
+        top: 10px;
+        margin-right: 10em;
+    }
+    .texto__saladas {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        font-size: 8px;
+        width: 12vh;
+        color: #7B8591;
+    }
+    .btn__saladas {
+        background: #FF5A01;
+        font-family: 'Open Sans';
+        border-radius: 150px;
+        display: flex;
+        font-size: 10px;
+        color: white;
+        font-weight: 400;
+        width: 8em;
+        justify-content: center;
+        height: 1.5em;
+        margin-left: 10em;
+        padding: 0.5em;
+    }
+    
+    .foto__almoco {
+        width: 10em;
+        height: 10em;
+        border-radius: 6px;
+        display: flex;
+        object-fit: cover;
+    }
+    .titulo__almoco {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        justify-content: center;
+        width: 12em;
+        color: #303336;
+        font-size: 17px;
+        top: 10px;
+        margin-right: 10em;
+        
+    }
+    .texto__almoco {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        font-size: 8px;
+        width: 15vh;
+        color: #7B8591;
+       
+    }
+    .btn__almoco {
+        background: #035810;
+        font-family: 'Open Sans';
+        border-radius: 150px;
+        display: flex;
+        font-size: 10px;
+        color: white;
+        font-weight: 400;
+        width: 8em;
+        height: 1.5em;
+        justify-content: center;
+        margin-left: 10em;
+        margin-top: 10em;
+        padding: 0.5em;
+    }
+    
+    .foto__menu {
+        width: 10em;
+        height: 10em;
+        border-radius: 5px;
+        display: flex;
+        object-fit: cover;
+    }
+    .titulo__menu {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        justify-content: center;
+        width: 12em;
+        color: #303336;
+        font-size: 17px;
+        top: 10px;
+        margin-right: 10em;
+    }
+    .texto__menu {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        font-size: 8px;
+        width: 12vh;
+        color: #7B8591;
+    }
+    .btn__menu {
+        background: #FF5A01;
+        font-family: 'Open Sans';
+        border-radius: 150px;
+        display: flex;
+        font-size: 10px;
+        color: white;
+        font-weight: 400;
+        width: 8em;
+        justify-content: center;
+        height: 1.5em;
+        margin-left: 10em;
+        margin-top: 2em;
+        padding: 0.5em;
+    }
+    
+    .foto__delivery {
+        width: 10em;
+        height: 10em;
+        border-radius: 5px;
+        display: flex;
+        object-fit: cover;
+    }
+    .titulo__delivery {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        justify-content: center;
+        width: 12em;
+        color: #303336;
+        font-size: 17px;
+        margin-right: 10em;
+        margin-top: 15px;
+    }
+    .texto__delivery {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        font-size: 8px;
+        width: 17vh;
+        color: #7B8591;
+    }
+    .btn__delivery {
+        background: #035810;
+        font-family: 'Open Sans';
+        border-radius: 150px;
+        display: flex;
+        font-size: 10px;
+        color: white;
+        width: 8em;
+        justify-content: center;
+        height: 1.5em;
+        margin-left: 10em;
+        font-weight: 400;
+        padding: 0.5em;
+    }
+    
+    .foto__cafe {
+        width: 12em;
+        height: 12em;
+        border-radius: 5px;
+        display: flex;
+        object-fit: cover;
+    }
+    .titulo__cafe {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        justify-content: center;
+        width: 12em;
+        color: #303336;
+        font-size: 17px;
+        margin-right: 10em;
+        margin-top: 15px;
+    }
+    .texto__cafe {
+        font-family: 'Open Sans';
+        text-align-last: left;
+        font-size: 8px;
+        width: 15vh;
+        color: #7B8591;
+    }
+    .btn__cafe {
+        background: #FF5A01;
+        font-family: 'Open Sans';
+        border-radius: 150px;
+        display: flex;
+        font-size: 8px;
+        color: white;
+        width: 12em;
+        justify-content: center;
+        height: 1.5em;
+        margin-left: 10em;
+        margin-top: 2em;
+        font-weight: 400;
+        padding: 0.5em;
+    }
+    .btn__evento {
+        text-decoration: none;
+        background: #035810;
+        font-family: 'Open Sans';
+        display: flex;
+        font-size: 10px;
+        color: white;
+        width: 12em;
+        justify-content: center;
+        height: 1.5em;
+        margin-top: 3em;
+        font-weight: 400;
+        padding: 0.5em;
+    }
+}

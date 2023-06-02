@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+
+.card {
+    background: #035810;
+    border-radius: 8px;
+    height: 15vh;
+    margin: 1em 0.5em 0em 0.3em;
+    column-count: 3;
+    column-rule: 2px solid white;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    width: 185vh;
+}
+.nosso__endereco__card {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 4em;
+    margin-left: 8em;
+}
+.endereco__card {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 5em;
+    margin-left: 8em;
+}
+.funcionamento__card {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 3em;
+    padding-top: 2.5em;
+    margin-left: 12em;
+}
+.dias__card {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 12em;
+}
+.horario__card {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 12em;
+}
+.contatos__card {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 4em;
+    margin-left: 8em;
+}
+.telefone__card {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 8em;
+    
+}
+@media screen and (max-width: 430px) {
+    .card {
+        background: #035810;
+        border-radius: 8px;
+        height: 5vh;
+        margin: 1em 0.5em 0em 0.3em;
+        column-count: 3;
+        column-rule: 2px solid white;
+        padding-top: 1.5em;
+        padding-bottom: 2em;
+        width: 44vh;
+    }
+    .nosso__endereco__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 6px;
+        text-align: left;
+        margin-top: 2em;
+        margin-left: 5.5em;
+    }
+    .endereco__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 4px;
+        text-align: left;
+        margin-bottom: 3em;
+        margin-left: 8.5em;
+    }
+    .funcionamento__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 5px;
+        text-align: left;
+        margin-top: 3em;
+        padding-top: 2em;
+        margin-left: 5.75em;
+    }
+    .dias__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 4px;
+        text-align: left;
+        margin-left: 7.5em;
+    }
+    .horario__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 5px;
+        text-align: left;
+        margin-left: 6em;
+    }
+    .contatos__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 5px;
+        text-align: left;
+        padding-top: 4em;
+        margin-left: 5em;
+    }
+    .telefone__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 4px;
+        text-align: left;
+        margin-left: 6.5em;
+        
+    }
+}
+@media screen and (max-width: 1280px) {
+    .card {
+        background: #035810;
+        border-radius: 8px;
+        height: 6vh;
+        margin: 1em;
+        column-count: 3;
+        column-rule: 2px solid white;
+        padding-top: 1.5em;
+        padding-bottom: 1em;
+        width: 67vh; 
+        display: flexbox;
+    }
+    .nosso__endereco__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 6px;
+        text-align: left;
+        margin-top: 4em;
+        margin-left: 5.5em;
+        
+    }
+    .endereco__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 4px;
+        text-align: left;
+        margin-left: 8.5em;
+    }
+    .funcionamento__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 6px;
+        text-align: left;
+        margin-left: 5em;
+        
+    }
+    .dias__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 4px;
+        text-align: left;
+        margin-left: 7.5em;
+        margin-bottom: 1em;
+    }
+    .horario__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 5px;
+        text-align: left;
+        margin-left: 6em;
+        margin-bottom: 1em;
+    }
+    .contatos__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 5px;
+        text-align: left;
+        
+        margin-left: 5em;
+    }
+    .telefone__card {
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 4px;
+        text-align: left;
+        margin-left: 6.5em;
+        margin-bottom: 50em;
+        
+    }
+}

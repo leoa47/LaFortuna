@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+
+
+.corpo {
+    background-color: whitesmoke; 
+    display: block;   
+    max-width: 100%;
+    margin-left: 0.3em;
+    margin-top: 0.5em;
+}
+
+.imagem__capa {
+    width: 185vh;
+    display: block;
+    max-height: 70vh;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    margin-left: 0.3em;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    padding: none;
+    object-fit: cover;
+}
+.cabecalho {
+    margin-bottom: 1em;
+    height: 70vh;
+    max-width: 100%;
+    padding-left: none;
+    margin: none;
+}
+
+
+.logo__principal {
+    width: 350px;
+    height: 150px;
+    position: relative;
+    left: 50px;
+    bottom: 410px;
+}
+
+.logo__insta {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    margin-top: 1em;
+    margin-right: 0.5em;
+}
+
+.logo__secundario {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.texto__cabecalho {
+    color: #035810;
+    position: relative;
+    font-family: 'Open Sans';
+    bottom: 410px;
+    left: 30px;
+    width: 70vh;
+    font-weight: 700;
+}
+.paragrafo__header {
+    color: #303336;
+    font-weight: 300;
+    position: relative;
+    bottom: 27em;
+    width: 20em;
+    margin-left: 2em;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+.texto__logo {
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    left: 60px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 430px){
+    .corpo {
+        background-color: whitesmoke; 
+        display: block;   
+        max-width: 50%;
+        margin-left: 0.3em;
+        margin-top: 0.5em;
+    }
+    .imagem__capa {
+        width: 44vh;
+        display: block;
+        max-height: 26vh;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        margin-left: 0.3em;
+        margin-right: 0.5em;
+        margin-top: 0.5em;
+        padding: none;
+        object-fit: cover;
+    }
+    .cabecalho {
+        margin-bottom: 1em;
+        height: 25vh;
+        max-width: 100%;
+        padding-left: none;
+        margin: none;
+    }
+    .logo__principal {
+        width: 100px;
+        height: 50px;
+        position: relative;
+        left: 30px;
+        bottom: 150px;
+    }
+    .logo__insta {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        margin-top: 1em;
+        margin-right: 1.5em;
+    }
+    .logo__secundario {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+    .texto__cabecalho {
+        color: #035810;
+        position: relative;
+        font-family: 'Open Sans';
+        bottom: 150px;
+        left: 30px;
+        width: 10vh;
+        font-weight: 700;
+        font-size: 6px;
+    }
+    .paragrafo__header {
+        color: #303336;
+        font-weight: 300;
+        position: relative;
+        bottom: 150px;
+        width: 10vh;
+        margin-left: 2em;
+        font-family: 'Open Sans';
+        font-size: 5px;
+        left: 20px;
+    }
+    .texto__logo {
+        font-size: 5px;
+        position: absolute;
+        top: 18px;
+        left: 45px;
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .corpo {
+        background-color: whitesmoke; 
+        display: block;   
+        max-width: 50%;
+        margin-left: 0.3em;
+        margin-top: 0.5em;
+        
+    }
+    .imagem__capa {
+        width: 67vh;
+        display: block;
+        max-height: 32vh;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        margin-left: 0.3em;
+        margin-right: 0.5em;
+        margin-top: 0.5em;
+        padding: none;
+        object-fit: cover;
+    }
+    .cabecalho {
+        margin-bottom: 1em;
+        height: 30.5vh;
+        max-width: 100%;
+        padding-left: none;
+        margin: none;
+    }
+    .logo__principal {
+        width: 150px;
+        height: 75px;
+        position: relative;
+        left: 30px;
+        bottom: 175px;
+    }
+    .logo__insta {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 8px;
+        left: 500px;
+        margin-top: 1em;
+        margin-right: 1.5em;
+    }
+    .logo__secundario {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+    .texto__cabecalho {
+        color: #035810;
+        position: relative;
+        font-family: 'Open Sans';
+        bottom: 175px;
+        left: 30px;
+        width: 15vh;
+        font-weight: 700;
+        font-size: 8px;
+    }
+    .paragrafo__header {
+        color: #303336;
+        font-weight: 300;
+        position: relative;
+        bottom: 175px;
+        width: 15vh;
+        margin-left: 2em;
+        font-family: 'Open Sans';
+        font-size: 5px;
+        left: 20px;
+    }
+    .texto__logo {
+        font-size: 5px;
+        position: absolute;
+        top: 18px;
+        left: 45px;
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+}
